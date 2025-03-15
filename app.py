@@ -8,6 +8,7 @@ from datetime import datetime, timedelta
 app = Flask(__name__)
 CORS(app)
 
+
 # Simulated traffic data
 traffic_data = {
     "vehicles_per_hour": 350,
